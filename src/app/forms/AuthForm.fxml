@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380" prefWidth="440" styleClass="">
+  <children>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="authLogin" layoutX="24" layoutY="112" prefColumnCount="12" prefHeight="32" prefWidth="392" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-authLogin" visible="1"/>
+    <PasswordField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="authPassword" layoutX="24" layoutY="184" prefColumnCount="12" prefHeight="32" prefWidth="392" promptText="" text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="text-input"/>
+        <String fx:value="text-field"/>
+        <String fx:value="password-field"/>
+      </styleClass>
+    </PasswordField>
+    <Data cursor="DEFAULT" enabled="1" id="data-authPassword" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="authLabelPassword" layoutX="24" layoutY="152" prefHeight="16" prefWidth="96" styleClass="label " text="Пароль" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-authLabelPassword" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="authLabelLogin" layoutX="24" layoutY="80" prefHeight="16" prefWidth="96" styleClass="label " text="Логин" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-authLabelLogin" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="authBtn" layoutX="24" layoutY="304" prefHeight="37" prefWidth="168" styleClass="button " text="Войти" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-authBtn" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="authRegisterLink" layoutX="232" layoutY="312" prefHeight="25" prefWidth="184" styleClass="hyperlink " text="Зарегистрироваться" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="System Regular" size="16"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-authRegisterLink" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="authLabel" layoutX="24" layoutY="24" prefHeight="32" prefWidth="240" styleClass="label " text="Авторизация" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="22"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-authLabel" visible="1"/>
+    <Hyperlink alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="authRememberLink" layoutX="24" layoutY="224" prefHeight="25" prefWidth="184" styleClass="hyperlink " text="Забыли пароль?" textAlignment="LEFT" wrapText="false">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </Hyperlink>
+    <Data cursor="DEFAULT" enabled="1" id="data-authRememberLink" visible="1"/>
+  </children>
+</AnchorPane>

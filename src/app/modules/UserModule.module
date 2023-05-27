@@ -1,0 +1,17 @@
+{
+  "props": {
+    "singleton": true
+  },
+  "components": {
+    "users": {
+      "type": "script\\storage\\IniStorage",
+      "x": 16.0,
+      "y": 16.0,
+      "props": {
+        "path": "users.ini",
+        "autoSave": "1",
+        "multiLineValues": "1"
+      }
+    }
+  }
+}
