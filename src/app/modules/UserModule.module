@@ -5,8 +5,8 @@
   "components": {
     "users": {
       "type": "script\\storage\\IniStorage",
-      "x": 16.0,
-      "y": 16.0,
+      "x": 16,
+      "y": 16,
       "props": {
         "path": "users.ini",
         "autoSave": "1",
